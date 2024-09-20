@@ -1,0 +1,27 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:@date-fns/tz": "npm:@date-fns/tz@1.0.2",
+      "npm:date-fns": "npm:date-fns@3.6.0",
+      "npm:date-fns-tz": "npm:date-fns-tz@3.1.3_date-fns@3.6.0"
+    },
+    "npm": {
+      "@date-fns/tz@1.0.2": {
+        "integrity": "sha512-iKxj0kXMy7Qe6vjK+flz33cpy2j0dnTKT5i54p3fFlB411J47aSs6HBg7LOO5X9LjDi2iNlctD9rFn738ySOGQ==",
+        "dependencies": {}
+      },
+      "date-fns-tz@3.1.3_date-fns@3.6.0": {
+        "integrity": "sha512-ZfbMu+nbzW0mEzC8VZrLiSWvUIaI3aRHeq33mTe7Y38UctKukgqPR4nTDwcwS4d64Gf8GghnVsroBuMY3eiTeA==",
+        "dependencies": {
+          "date-fns": "date-fns@3.6.0"
+        }
+      },
+      "date-fns@3.6.0": {
+        "integrity": "sha512-fRHTG8g/Gif+kSh50gaGEdToemgfj74aRX3swtiouboip5JDLAyDE9F11nHMIcvOaXeOC6D7SpNhi7uFyB7Uww==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {}
+}
